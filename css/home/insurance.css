@@ -1,0 +1,72 @@
+.insurance-bg{
+  background: var(--cor-11);
+}
+
+.insurance{
+  padding:3.75rem;
+  color: white;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.insurance h2{
+  grid-column: 1/-1 ;
+ 
+}
+
+.insurance-box{ 
+  background: black;
+  padding: 2rem 2rem 2.5rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: 4px;
+}
+
+.insurance-box ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.insurance-box h3{
+  text-transform: uppercase;
+}
+
+
+.insurance-box span{
+  display:block;
+  grid-column: 2;
+  text-align: right;
+}
+
+.insurance-box li{
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+.insurance-box li::before{
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url('../../img/icones/lista.svg');
+  position: absolute;
+  left: -21px;
+}
+
+.btn-a{
+  
+  grid-column: 1;
+}
+
+
+@media(max-width: 800px){
+  .insurance{
+    grid-template-columns: 1fr;
+    padding: 2.5rem;
+  }
+}

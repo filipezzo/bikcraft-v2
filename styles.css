@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+/* Global */
+@import url(./css/global/global.css);
+@import url(./css/global/header.css);
+
+/* Utils */
+@import url(./css/utils/colors.css);
+@import url(./css/utils/typography.css);
+@import url(./css/utils/components.css);
+
+/* Home */
+@import url(./css/home/main.css);
+@import url(./css/home/bike-list.css);
+@import url(./css/home/techs.css);
+@import url(./css/home/partners.css);
+@import url(./css/home/statements.css);
+@import url(./css/home/insurance.css);
+@import url(./css/home/footer.css);
+
+
+/* terms */
+
+@import url(./css/terms/terms.css);
+
+/* bikes */
+
+@import url(./css/bikes/bikes.css);
+
+/* insurance */
+@import url(./css/insurance/insurance.css);
+
+/* bikes */
+@import url(./css/bikes/nimbus.css);
+
+/* contact */
+@import url(./css/contact/contact.css);
+
+@import url(./css/orders/orders.css);

@@ -1,0 +1,22 @@
+.terms{
+  background: white;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.main-terms{
+  background: white;
+}
+
+.terms h2{
+  margin-bottom: 1.25rem;
+  font-weight: bold;
+}
+
+.terms p {
+  margin-bottom: 1rem;
+}
+
+.terms p:last-child{
+  margin-bottom: 3rem;
+}
