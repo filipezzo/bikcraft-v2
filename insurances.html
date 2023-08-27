@@ -8,7 +8,9 @@
       name="description"
       content="Insurance Bikcraft"
     />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./styles.css" />
+  <script>document.documentElement.classList.add('js')</script>
   </head>
   <body>
     <header>
@@ -37,7 +39,7 @@
       <section id="insurance-page" class="insurance-bg">
         <div class="insurance container">
         
-            <div class="insurance-box">
+            <div class="insurance-box fadeInLeft" data-anime="400">
               <h3  class="font-1-xl cor-6">SILVER</h3>
   
               <span class="font-1-xl cor-0">
@@ -51,9 +53,9 @@
                 <li>national coverage</li>
                 
               </ul>
-              <a class="btn btn-a" href="./orders.html">Subscribe</a>
+              <a class="btn btn-a" href="./orders.html?tipo=seguro&produto=prata">Subscribe</a>
             </div>
-            <div class="insurance-box">
+            <div class="insurance-box fadeInRight " data-anime="400">
               <h3 class=" font-1-xl cor-p1">GOLD</h3>
   
               <span class="font-1-xl cor-0">
@@ -70,7 +72,7 @@
                 <li>Club bikcraft</li>
                
               </ul>
-              <a class="btn btn-a" href="./orders.html">Subscribe</a>
+              <a class="btn btn-a" href="./orders.html?tipo=seguro&produto=ouro">Subscribe</a>
             </div>
          
         </div>
@@ -175,5 +177,7 @@
        
       </div>
     </footer>
-    </body>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
   </html>

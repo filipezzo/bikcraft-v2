@@ -9,6 +9,7 @@
 @import url(./css/utils/colors.css);
 @import url(./css/utils/typography.css);
 @import url(./css/utils/components.css);
+@import url(./css/utils/animation.css);
 
 /* Home */
 @import url(./css/home/main.css);

@@ -29,7 +29,8 @@ header{
   position: relative;
 }
 
-.header-box ul a::after{
+.header-box ul a::after
+{
   content: '';
   display: block;
   width: 0px;
@@ -40,7 +41,10 @@ header{
   position: absolute;
 }
 
-.header-box ul a:hover::after{
+.header-box ul a:hover::after,
+.header-box ul a.active::after
+
+{
   width: 100%;
 }
 
